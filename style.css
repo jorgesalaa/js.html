@@ -1,0 +1,101 @@
+/* Colors and Fonts */
+
+html {
+    display: block;
+    color: #76323F;
+    background-color: #76323F;
+ }
+
+body {
+	background-color: #76323F;
+	color: white;
+	font-family: Garamond Header;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+img { 
+	height: 290px;
+	width: 200px;
+}
+h2 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-size: 28px;
+	letter-spacing: 0px;
+	font-family: Garamond body copy;
+	text-align: center;
+}
+a:hover {
+	color: lightgrey;
+}
+
+div {
+	background: #76323F;
+	margin: 20px;
+	padding: 30px;
+}
+
+div .id {
+	background: #76323F;
+	margin: 30px;
+	padding: 40px;
+
+}
+
+/* custom design with class */
+.container  { 
+	width: 600px
+	margin: 40px auto;
+}
+
+@media (max-height: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-height: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background: grey;
+	padding: 80px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px
+	text-align: center;
+}
+
+.img-circle { 
+	border-radius: 1%;
+}
+
+.list-inline { 
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
